@@ -1117,7 +1117,7 @@ local function main()
                 local startPos = root.Position
                 local direction = (targetPos - startPos).Unit
                 local distance = (targetPos - startPos).Magnitude
-                local step = 5 -- 5 stud ต่อครั้ง
+                local step = 2 -- 2 stud ต่อครั้ง
                 
                 local moved = 0
                 while moved < distance do
@@ -11166,4 +11166,5 @@ Main = (function()
 end)()
 
 -- Start
+
 Main.Init()
